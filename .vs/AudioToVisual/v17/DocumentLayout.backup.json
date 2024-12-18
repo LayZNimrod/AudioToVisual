@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\2zach\\source\\repos\\AudioToVisual\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57B07EB8-4062-4CD8-9507-432468AD2C07}|AudioToVisual.pyproj|C:\\Users\\2zach\\source\\repos\\AudioToVisual\\AudioStats.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57B07EB8-4062-4CD8-9507-432468AD2C07}|AudioToVisual.pyproj|solutionrelative:AudioStats.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57B07EB8-4062-4CD8-9507-432468AD2C07}|AudioToVisual.pyproj|C:\\Users\\2zach\\source\\repos\\AudioToVisual\\AudioToVisual.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{57B07EB8-4062-4CD8-9507-432468AD2C07}|AudioToVisual.pyproj|solutionrelative:AudioToVisual.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AudioStats.py",
+              "DocumentMoniker": "C:\\Users\\2zach\\source\\repos\\AudioToVisual\\AudioStats.py",
+              "RelativeDocumentMoniker": "AudioStats.py",
+              "ToolTip": "C:\\Users\\2zach\\source\\repos\\AudioToVisual\\AudioStats.py",
+              "RelativeToolTip": "AudioStats.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-17T19:40:56.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AudioToVisual.py",
               "DocumentMoniker": "C:\\Users\\2zach\\source\\repos\\AudioToVisual\\AudioToVisual.py",
               "RelativeDocumentMoniker": "AudioToVisual.py",
