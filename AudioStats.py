@@ -8,4 +8,11 @@ spectrogram = librosa.amplitude_to_db(stft, ref=numpy.max)
 
 frequencies = librosa.core.fft_frequencies(n_fft=2048*4)
 
+times = librosa.core.frames_to_time(numpy.arange(spectrogram.shape[1]), sr=sampleRate, hop_length=512, n_fft=2048*4)
 
+timeIDXRatio = len(times)/times[len(times) - 1]
+
+frequenciesIDXRatio = len(frequencies)/frequencies[len(frequencies)-1]
+
+def getDecibel(target_time, freq):
+    return spectrogram[int(freq * frequenciesIDXRatio)][int(target_time * timeIDXRatio)]
