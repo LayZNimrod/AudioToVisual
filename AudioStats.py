@@ -12,7 +12,3 @@ times = librosa.core.frames_to_time(numpy.arange(spectrogram.shape[1]), sr=sampl
 
 timeIDXRatio = len(times)/times[len(times) - 1]
 
-frequenciesIDXRatio = len(frequencies)/frequencies[len(frequencies)-1]
-
-def getDecibel(target_time, freq):
-    return spectrogram[int(freq * frequenciesIDXRatio)][int(target_time * timeIDXRatio)]
